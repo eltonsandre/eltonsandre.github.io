@@ -1,29 +1,79 @@
-<div id="card"></div>
-<div id="install"></div>
+<style>
+    :root {
+        --cardWidth: 384px;
+        --cardHeight: 319px;
+        --cardMargin: 16px;
+    }
 
-<form action="https://eltonsandre.github.io/linkedin-badges.html">
-    <input type="submit" value="Go to badges" />
-</form>
+    .main-section {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
 
-<script src="https://plugins.jetbrains.com/assets/scripts/mp-widget.js"></script>
+    .card {
+        width: var(--cardWidth);
+        height: var(--cardHeight);
+        margin: var(--cardMargin);
+        box-sizing: border-box;
+    }
 
-<script>
-  MarketplaceWidget.setupMarketplaceWidget('card', 18622, "#card");
-</script>
-<script> 
-    MarketplaceWidget.setupMarketplaceWidget('install', 18622, "#install");
-</script>
+    iframe{
+        border:0;
+        width: var(--cardWidth);
+        height: var(--cardHeight);
+    }
 
-<script>
-    MarketplaceWidget.setupMarketplaceWidget('card', 19027, "#card");
-</script>
-<script> 
-    MarketplaceWidget.setupMarketplaceWidget('install', 19027, "#install");
-</script>
+</style>
 
-<script>
-  MarketplaceWidget.setupMarketplaceWidget('card', 19360, "#card");
-</script>
-<script> 
-    MarketplaceWidget.setupMarketplaceWidget('install', 19360, "#install");
-</script>
+<section class="main-section">
+    <div class="card">
+        <img src="https://img.shields.io/jetbrains/plugin/v/18622" alt="Version">
+        <img src="https://img.shields.io/jetbrains/plugin/d/18622" alt="Downloads">
+        <img src="https://img.shields.io/jetbrains/plugin/r/rating/18622" alt="Rating">
+        <iframe src="https://plugins.jetbrains.com/embeddable/card/18622"></iframe>
+    </div>
+
+    <div class="card">
+        <img src="https://img.shields.io/jetbrains/plugin/v/22284" alt="Version">
+        <img src="https://img.shields.io/jetbrains/plugin/d/22284" alt="Downloads">
+        <img src="https://img.shields.io/jetbrains/plugin/r/rating/22284" alt="Rating">
+        <iframe src="https://plugins.jetbrains.com/embeddable/card/22284"></iframe>
+    </div>
+
+    <div class="card">
+        <img src="https://img.shields.io/jetbrains/plugin/v/23999" alt="Version">
+        <img src="https://img.shields.io/jetbrains/plugin/d/23999" alt="Downloads">
+        <img src="https://img.shields.io/jetbrains/plugin/r/rating/23999" alt="Rating">
+        <iframe src="https://plugins.jetbrains.com/embeddable/card/23999"></iframe>
+    </div>
+
+    <div class="card">
+        <img src="https://img.shields.io/jetbrains/plugin/v/19360" alt="Version">
+        <img src="https://img.shields.io/jetbrains/plugin/d/19360" alt="Downloads">
+        <img src="https://img.shields.io/jetbrains/plugin/r/rating/19360" alt="Rating">
+        <iframe src="https://plugins.jetbrains.com/embeddable/card/19360"></iframe>
+    </div>
+
+    <div class="card">
+        <img src="https://img.shields.io/jetbrains/plugin/v/23564" alt="Version">
+        <img src="https://img.shields.io/jetbrains/plugin/d/23564" alt="Downloads">
+        <img src="https://img.shields.io/jetbrains/plugin/r/rating/23564" alt="Rating">
+        <iframe src="https://plugins.jetbrains.com/embeddable/card/23564"></iframe>
+    </div>
+
+    <div class="card">
+        <img src="https://img.shields.io/jetbrains/plugin/v/19027" alt="Version">
+        <img src="https://img.shields.io/jetbrains/plugin/d/19027" alt="Downloads">
+        <img src="https://img.shields.io/jetbrains/plugin/r/rating/19027" alt="Rating">
+        <iframe src="https://plugins.jetbrains.com/embeddable/card/19027"></iframe>
+    </div>
+
+    <div class="card">
+        <img src="https://img.shields.io/jetbrains/plugin/v/23687" alt="Version">
+        <img src="https://img.shields.io/jetbrains/plugin/d/23687" alt="Downloads">
+        <img src="https://img.shields.io/jetbrains/plugin/r/rating/23687" alt="Rating">
+        <iframe src="https://plugins.jetbrains.com/embeddable/card/23687"></iframe>
+    </div>
+
+</section>
